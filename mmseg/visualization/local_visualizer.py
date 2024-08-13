@@ -265,7 +265,7 @@ class SegLocalVisualizer(Visualizer):
             # TODO: Supported in mmengine's Viusalizer.
             out_file: Optional[str] = None,
             step: int = 0,
-            with_labels: Optional[bool] = True) -> None:
+            with_labels: Optional[bool] = False) -> None:
         """Draw datasample and save to all backends.
 
         - If GT and prediction are plotted at the same time, they are
